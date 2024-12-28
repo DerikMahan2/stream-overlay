@@ -45,8 +45,8 @@ body {
 .logo {
     position: absolute;
     top: 20px; /* Adjust vertical position */
-    left: 20px; /* Align to the left */
-    width: 50px; /* Reduce the size */
-    height: auto; /* Maintain aspect ratio */
+    right: 20px; /* Align to the right */
+    width: 50px !important; /* Reduce the size */
+    height: auto !important; /* Maintain aspect ratio */
     transform: none; /* Remove centering offset */
 }
