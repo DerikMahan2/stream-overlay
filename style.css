@@ -15,7 +15,7 @@ body {
 /* Webcam Frame */
 .webcam-frame {
     position: absolute;
-    bottom: 10px; /* Move it slightly up to avoid cutting */
+    bottom: 30px; /* Move it slightly up to avoid cutting */
     left: 20px;
     width: 400px;
     height: 300px;
@@ -44,9 +44,9 @@ body {
 /* Logo */
 .logo {
     position: absolute;
-    top: 20px; /* Adjust vertical position */
-    right: 20px; /* Align to the right */
-    width: 50px !important; /* Reduce the size */
-    height: auto !important; /* Maintain aspect ratio */
-    transform: none; /* Remove centering offset */
+    top: 10px; /* Adjust vertical position */
+    right: 10px; /* Adjust horizontal position */
+    width: 100px; /* Size it to fit inside the blue box */
+    height: auto; /* Maintain aspect ratio */
+    transform: none; /* Ensure no offset applied */
 }
