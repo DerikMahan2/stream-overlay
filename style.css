@@ -46,7 +46,7 @@ body {
     position: absolute;
     top: 20px; /* Adjust vertical position */
     right: 20px; /* Align to the right */
-    width: 150px; /* Reduce the size */
+    width: 100px; /* Reduce the size */
     height: auto; /* Maintain aspect ratio */
     transform: none; /* Remove centering offset */
 }
